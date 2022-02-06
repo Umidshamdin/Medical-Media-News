@@ -1,0 +1,63 @@
+header .container .front {
+    display: flex;
+    padding: 40px;
+  }
+  
+  header .container .front h1 {
+    margin-right: 20px;
+    color:  rgb(119, 17, 17);
+  }
+  
+  header .container .front .left {
+    color:  rgb(119, 17, 17);
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  header .container .front .right {
+    color: rgb(119, 17, 17);
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  main .news {
+    width: 100vw;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    transition: all 0.5s;
+    overflow: hidden;
+  }
+  
+  main .news .card-item {
+    min-width: 215.75px;
+    margin-right: 10px;
+    transition: all 0.1s;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  main .news .card-item .card {
+
+    position: absolute;
+    height: 350px;
+  }
+  
+  main .news .card-item .card-img {
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    overflow: hidden;
+    position: relative;
+  }
+  main .news .card-item .card-img-top {
+    width: 215.75px;
+    height: 200px;
+    position: absolute;
+  }
+  main .news .card-item p {
+    color:blue;
+  }
